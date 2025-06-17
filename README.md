@@ -6,6 +6,7 @@ Why use GPM?
 
 - Fast; we use Golang which is a Compiled language which mean's its closer to hardware meaning more peformance.
 - Git; it uses Git by Linus Torvalds to Clone repositories.
+- Simple; This heavily simplifies the Git library for Package cloning and Installing.
 
 Just be mindful of what Packages your installing and what Repository it is.
 Reasons:
@@ -28,3 +29,13 @@ Dependency's:
 -- Git
 -- Python3
 -- Go
+
+# Usage
+
+To install a Package you can use;
+gpm -i (repository git link here)
+You can also find Git Repository's by using:
+gpm -f (git repository link here)
+To remove Package files (uses rm) then you can do this;
+gpm -r (filename)
+
